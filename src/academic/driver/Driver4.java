@@ -2,7 +2,7 @@ package academic.driver;
 
 /**
  * @author 12S24023 Jaya Bestina Simbolon
- * @author 12S24023 Jaya Bestina Simbolon
+ * @author 12S24023 Jaya Bestina Simbolonn
  */
 
 
