@@ -1,11 +1,45 @@
 package academic.model;
 
 /**
- * @author NIM Nama
- * @author NIM Nama
+ * @author 12S24023 Jaya Bestina Simbolon
+ * @author 12S24023 Jaya Bestina Simbolon
  */
+
 public class Student {
+    private String nim;
+    private String name;
+    private int entranceYear; // Angkatan
+    private String studyProgram; // Program Studi
 
-    // class definition
+    // Constructor untuk inisialisasi objek Student
+    public Student(String nim, String name, int entranceYear, String studyProgram) {
+        this.nim = nim;
+        this.name = name;
+        this.entranceYear = entranceYear;
+        this.studyProgram = studyProgram;
+    }
 
+    // --- Getters untuk mengakses data Student ---
+    public String getNim() {
+        return nim;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getEntranceYear() {
+        return entranceYear;
+    }
+
+    public String getStudyProgram() {
+        return studyProgram;
+    }
+
+    // Method untuk mengubah representasi objek Student menjadi string sesuai format output
+    @Override
+    public String toString() {
+        return nim + "|" + name + "|" + entranceYear + "|" + studyProgram;
+    }
 }
+
